@@ -10,3 +10,4 @@ urlpatterns = [
     path('add/<str:id>/<str:token>/', views.add, name="order.add"),
     path('', include(router.urls))
 ]
+    
